@@ -3150,6 +3150,8 @@ textarea.form-control {
       width: 19%;
     }
 
+    
+
     .logo img{
       width: 100%;
     }
@@ -3167,4 +3169,19 @@ textarea.form-control {
     }
     .cgap{
       row-gap: 40px;
+    }
+
+
+    .product-img img{
+      width: 100%;
+    }
+    .new-tab{
+      margin: 30px auto;
+    max-width: 1100px;
+    }
+
+    @media(max-width: 768px){
+      .featured{
+        display: none;
+      }
     }
