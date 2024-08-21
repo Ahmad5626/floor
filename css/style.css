@@ -1752,7 +1752,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   color: #333333;
-  font-weight: 400; }
+  font-weight: 700; }
 
 .top {
   background: transparent !important;
@@ -2176,7 +2176,7 @@ h1, h2, h3, h4, h5,
             color: rgba(255, 255, 255, 0.8); } }
     .featured .featured-menus .menu-img {
       width: 90px;
-      height: 90px;
+     
       margin: 0 auto;
       margin-bottom: 10px;
       -webkit-border-radius: 50%;
@@ -2333,7 +2333,9 @@ h1, h2, h3, h4, h5,
     border: 1px solid #e6e6e6; }
     @media (max-width: 767.98px) {
       .menus .text {
-        width: 100%; } }
+        width: 100%; 
+        margin-top: 60px;
+      } }
     .menus .text .one-half {
       width: calc(100% - 80px); }
       .menus .text .one-half h3 {
@@ -2354,13 +2356,15 @@ h1, h2, h3, h4, h5,
         transition: all 0.3s ease; }
     .menus .text p {
       margin-bottom: 0;
-      color: rgba(0, 0, 0, 0.8); }
+      color: rgba(0, 0, 0, 0.8); 
+      font-weight: 700;
+    }
   .menus .menu-img {
     width: 50%; }
     @media (max-width: 767.98px) {
       .menus .menu-img {
         width: 100%;
-        height: 250px; } }
+        height: auto; } }
 
 .staff {
   -moz-transition: all 0.3s ease;
@@ -2670,7 +2674,7 @@ textarea.form-control {
   position: relative; }
   .heading-section .subheading {
     position: absolute;
-    top: -50px;
+    top: -77px;
     left: 0;
     right: 0;
     font-weight: normal;
@@ -2686,7 +2690,7 @@ textarea.form-control {
     @media (max-width: 767.98px) {
       .heading-section .subheading {
         font-size: 90px;
-        top: -40px; } }
+        top: -65px; } }
   .heading-section h2 {
     font-size: 50px;
     font-weight: 900;
@@ -2714,7 +2718,7 @@ textarea.form-control {
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .8;
+    opacity: 0.8;
     background: #fff;
     z-index: -1; }
   .testimony-section .owl-carousel {
@@ -3152,7 +3156,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
     .logo{
-      width: 19%;
+      width: 11%;
     }
 
     
